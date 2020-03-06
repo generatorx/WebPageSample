@@ -18,7 +18,7 @@ html {
 
 .wrapper {
     display: grid;
-    grid-gap: 1.6rem;
+    gap: 3rem;
 }
 
 body {
@@ -47,7 +47,7 @@ img {
 
 nav ul {
     display: grid;
-    grid-gap: 2rem;
+    gap: 2rem;
     padding: 0;
     list-style: none;
     grid-template-columns: auto auto auto;
@@ -73,7 +73,7 @@ nav a:hover {
 
 .top-header {
     display: grid;
-    grid-gap: 2rem;
+    gap: 2rem;
     grid-template-areas:
     'aside aside plan-a'
     'aside aside plan-b';
@@ -134,7 +134,7 @@ aside p {
 
 .boxes {
     display: grid;
-    grid-gap: 1.8rem;
+    gap: 1.8rem;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
 }
 
@@ -147,7 +147,7 @@ aside p {
 
 .hits {
     display: grid;
-    grid-gap: 1.8rem;
+    gap: 1.8rem;
     grid-template-areas: 
     "pic-a pic-b"
     "article article";
@@ -206,7 +206,7 @@ footer {
 
 .top-header {
     display: grid;
-    grid-gap: 1.8rem;
+    gap: 1.8rem;
     grid-template-areas:
     'aside aside'
     'plan-a plan-b';
@@ -236,7 +236,7 @@ aside p {
 
 .hits {
     display: grid;
-    grid-gap: 1.8rem;
+    gap: 1.8rem;
     grid-template-areas: 
     "pic-a pic-b"
     "article article";
@@ -287,7 +287,7 @@ aside p {
 
 nav ul {
     display: grid;
-    grid-gap: 1.8rem;
+    gap: 1.8rem;
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(1, 1fr);
@@ -295,7 +295,7 @@ nav ul {
 
 .top-header {
     display: grid;
-    grid-gap: 1.8rem;
+    gap: 1.8rem;
     grid-template-areas:
     'aside'
     'plan-a'
@@ -342,7 +342,7 @@ aside p {
 
 .hits {
     display: grid;
-    grid-gap: 1.8rem;
+    gap: 1.8rem;
     grid-template-areas: 
     "pic-a"
     'pic-b'
