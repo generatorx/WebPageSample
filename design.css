@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(29, 27, 27);
+}
+
+.wrapper {
+    display: grid;
+    gap: 3rem;  
+}
+
+body {
+    background-color: rgb(187, 187, 187);
+    margin: 2rem;
+    line-height: 1.5;
+}
+
+nav ul {
+    display: grid;
+    gap: 2rem;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: auto auto auto;
+
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 0.4rem;
+    background-color: rgb(212, 212, 212);
+    box-shadow: 0 0.6rem 1rem rgb(87, 87, 87);
+}
+
